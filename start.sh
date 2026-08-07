@@ -1,10 +1,8 @@
 #!/bin/sh
 
-export OLLAMA_KEEP_ALIVE=0
-
 ollama serve &
 
-sleep 10
+sleep 20
 
 ollama pull tinyllama
 
